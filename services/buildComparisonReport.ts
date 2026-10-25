@@ -8,7 +8,7 @@ import {
   slicePeriodRange,
 } from './analyze';
 import { rubroLabel } from './catalog';
-import { formatMoney, formatPct } from '../../../shared/lib/format';
+import { formatMoney, formatPct } from '../src/shared/lib/format';
 
 export type ReportMetric = 'ganancia' | 'ingresos' | 'costos';
 

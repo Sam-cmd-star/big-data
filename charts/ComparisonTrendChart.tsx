@@ -9,8 +9,8 @@ import {
   Tooltip,
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
-import { useTheme } from '../../../shared/context/ThemeContext';
-import { formatMoney } from '../../../shared/lib/format';
+import { useTheme } from '../src/shared/context/ThemeContext';
+import { formatMoney } from '../src/shared/lib/format';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Tooltip, Legend, Filler);
 

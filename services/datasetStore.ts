@@ -1,6 +1,6 @@
 import { financials } from './analyze';
 import { normalizeRubro } from './catalog';
-import { isSupabaseConfigured, supabase } from '../../../shared/lib/supabaseClient';
+import { isSupabaseConfigured, supabase } from '../src/shared/lib/supabaseClient.ts';
 import type { Dataset } from '../types/dataset';
 
 export const DATASET_CACHE_KEY = 'nexus_bi_datasets_v1';

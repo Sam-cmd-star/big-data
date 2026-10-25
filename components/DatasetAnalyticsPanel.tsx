@@ -3,7 +3,7 @@ import { BarChart3, LineChart, Search, Star, Trash2, Save } from 'lucide-react';
 import type { Dataset } from '../types/dataset';
 import { buildPeriodSeries, financials, metricFromPeriod } from '../services/analyze';
 import { rubroLabel } from '../services/catalog';
-import { formatMoney, formatPct } from '../../../shared/lib/format';
+import { formatMoney, formatPct } from '../src/shared/lib/format';
 import { csvKindLabel } from '../services/inspectCsv';
 import { FinancialDistributionChart } from '../charts/FinancialDistributionChart';
 import { ComparisonTrendChart } from '../charts/ComparisonTrendChart';

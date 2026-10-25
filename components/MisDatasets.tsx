@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDatasets } from '../context/DatasetContext';
 import { financials } from '../services/analyze';
 import { rubroLabel } from '../services/catalog';
-import { formatMoney } from '../../../shared/lib/format';
+import { formatMoney } from '../src/shared/lib/format';
 import { DatasetAnalyticsPanel } from './DatasetAnalyticsPanel';
 import { DatasetModal } from './DatasetModal';
 

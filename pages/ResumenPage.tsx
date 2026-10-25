@@ -5,7 +5,7 @@ import { useDatasets } from '../context/DatasetContext';
 import { rubroLabel } from '../services/catalog';
 import { explainWinner } from '../services/explain';
 import { rankSameRubro } from '../services/recommend';
-import { supabase } from '../../../shared/lib/supabaseClient';
+import { supabase } from '../src/shared/lib/supabaseClient';
 
 const formatMoney = (value: number) =>
   new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(value);

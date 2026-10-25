@@ -11,7 +11,7 @@ import {
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Line } from 'react-chartjs-2';
 import { pingWithLatency, type TableStatus } from '../services/datasetStore.ts';
-import { useTheme } from '../../../shared/context/ThemeContext';
+import { useTheme } from '../src/shared/context/ThemeContext';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Tooltip, Legend, Filler);
 

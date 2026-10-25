@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import type { Dataset } from '../types/dataset';
 import { buildPeriodSeries, financials, metricFromPeriod } from '../services/analyze';
-import { formatMoney } from '../../../shared/lib/format';
+import { formatMoney } from '../src/shared/lib/format';
 import { ProfitBarChart } from '../charts/ProfitBarChart';
 import { FinancialDistributionChart } from '../charts/FinancialDistributionChart';
 import { ComparisonTrendChart } from '../charts/ComparisonTrendChart';

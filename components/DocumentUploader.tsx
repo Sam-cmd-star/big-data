@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { isSupabaseConfigured, supabase } from '../../../shared/lib/supabaseClient';
+import { isSupabaseConfigured, supabase } from '../src/shared/lib/supabaseClient';
 import { FileText, FileSpreadsheet, Table, Upload, Trash2, Eye, Download } from 'lucide-react';
-import { useTheme } from '../../../shared/context/ThemeContext';
+import { useTheme } from '../src/shared/context/ThemeContext';
 
 const LOCAL_DOCS_KEY = 'nexus-documentos-local-cache';
 

@@ -10,7 +10,7 @@ import {
   type ReportMetric,
 } from '../services/buildComparisonReport';
 import { rubroLabel } from '../services/catalog';
-import { formatMoney, formatPct } from '../../../shared/lib/format';
+import { formatMoney, formatPct } from '../src/shared/lib/format';
 import { ComparisonTrendChart } from '../charts/ComparisonTrendChart';
 import { HeadToHeadChart } from '../charts/HeadToHeadChart';
 import { FinancialDistributionChart } from '../charts/FinancialDistributionChart';

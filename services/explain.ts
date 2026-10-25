@@ -1,5 +1,5 @@
 import { delayReviewInsight } from './analyze';
-import { formatMoney, formatPct } from '../../../shared/lib/format';
+import { formatMoney, formatPct } from '../src/shared/lib/format';
 import { profileDataset } from './profile';
 import type { RankedRow } from './recommend';
 
